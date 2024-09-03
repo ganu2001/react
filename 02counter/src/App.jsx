@@ -8,7 +8,7 @@ function App() {
   let [counter , setcounter] = useState(0)
 
   const addvale = () =>{
-    if(counter <= 20){
+    if(counter < 20){
       counter=counter +1
     }
     setcounter(counter)
